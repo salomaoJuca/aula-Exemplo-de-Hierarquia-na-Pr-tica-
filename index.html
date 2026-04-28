@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Curso - Web Design</title>
+    <style>
+        /* Configurações Gerais */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+        }
+
+        /* Seção Principal (Hero Section) */
+        .course-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Nível 1: Título Gigante e Negrito */
+        h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+
+        /* Nível 2: Parágrafo Curto, Fonte Menor e Cinza Escuro */
+        .description {
+            font-size: 1.2rem;
+            color: #4a4a4a;
+            max-width: 600px;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Nível 3: Botão com Cor de Destaque Única */
+        .cta-button {
+            background-color: #ff5722; /* Laranja vibrante para se destacar */
+            color: white;
+            padding: 18px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+        }
+
+        .cta-button:hover {
+            background-color: #e64a19;
+            transform: scale(1.05);
+        }
+
+        /* Nível 4: Rodapé com Informações Menores */
+        footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        footer a {
+            color: #888;
+            text-decoration: underline;
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+            .description { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <main class="course-section">
+        <h1>Aprenda Web Design</h1>
+
+        <p class="description">
+            Domine as ferramentas mais modernas do mercado e transforme sua carreira criando interfaces incríveis e funcionais que encantam usuários.
+        </p>
+
+        <a href="#" class="cta-button">Fazer Inscrição</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Escola nenem cavalcante. <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
+    </footer>
+
+</body>
+</html>
